@@ -1,107 +1,33 @@
 <!DOCTYPE html>
-
-<html lang="vi">
+<html>
 <head>
 <meta charset="UTF-8">
-<title>MoeDichTruyen</title>
-<style>
-body {
-  margin:0;
-  font-family: Arial;
-  background:#0f172a;
-  color:white;
-}
-header {
-  background:#020617;
-  padding:15px;
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-}
-.logo {
-  font-size:22px;
-  font-weight:bold;
-  color:#38bdf8;
-}
-.search input {
-  padding:8px;
-  border-radius:5px;
-  border:none;
-}
-.container {
-  padding:20px;
-}
-.grid {
-  display:grid;
-  grid-template-columns:repeat(auto-fill,minmax(160px,1fr));
-  gap:15px;
-}
-.card {
-  background:#1e293b;
-  border-radius:10px;
-  overflow:hidden;
-  transition:0.3s;
-}
-.card:hover {
-  transform:scale(1.05);
-}
-.card img {
-  width:100%;
-  height:220px;
-  object-fit:cover;
-}
-.card .info {
-  padding:10px;
-}
-a {
-  text-decoration:none;
-  color:white;
-}
-.footer {
-  text-align:center;
-  padding:20px;
-  background:#020617;
-  margin-top:30px;
-}
-</style>
+<title>Moe Dịch Dạo</title>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
-  <div class="logo">🔥 MoeDichTruyen</div>
-  <div class="search">
-    <input type="text" placeholder="Tìm truyện...">
-  </div>
-</header>
-
-<div class="container">
-  <h2>📚 Mới cập nhật</h2>
-
-  <div class="grid">
-
-```
-<a href="chapter1.html" class="card">
-  <img src="https://picsum.photos/200/300?1">
-  <div class="info">Truyện 1</div>
-</a>
-
-<a href="chapter1.html" class="card">
-  <img src="https://picsum.photos/200/300?2">
-  <div class="info">Truyện 2</div>
-</a>
-
-<a href="chapter1.html" class="card">
-  <img src="https://picsum.photos/200/300?3">
-  <div class="info">Truyện 3</div>
-</a>
-```
-
-  </div>
+<div class="header">
+  <div class="logo">📖 Moe Dịch Dạo</div>
+  <input class="search" placeholder="Tìm kiếm truyện...">
 </div>
 
-<div class="footer">
-  © 2026 MoeDichTruyen - Moe Channel 🚀
+<div class="menu">
+  <a href="#">Trang Chủ</a>
+  <a href="#">Thể Loại</a>
+  <a href="#">Xếp Hạng</a>
+  <a href="#">Theo Dõi</a>
+</div>
+
+<div class="grid">
+
+  <a href="chap1.html" class="card">
+    <span class="badge">HOT</span>
+    <img src="cover.jpg">
+    <p>Thiếu Nữ Ngủ Đông<br>Chap 1</p>
+  </a>
+
 </div>
 
 </body>
