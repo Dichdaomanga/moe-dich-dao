@@ -6,26 +6,91 @@
 
 <style>
 body {
-  background:#111;
+  background:#0d0d0d;
   color:white;
-  text-align:center;
   font-family:Arial;
+  margin:0;
 }
+
+/* Header */
+.header {
+  background:#111;
+  padding:15px;
+  text-align:center;
+  font-size:24px;
+  font-weight:bold;
+  border-bottom:1px solid #333;
+}
+
+/* Container */
+.container {
+  max-width:800px;
+  margin:auto;
+  padding:10px;
+}
+
+/* Title */
+.title {
+  text-align:center;
+  margin:20px 0;
+}
+
+/* Images */
 img {
-  width:95%;
+  width:100%;
+  border-radius:10px;
   margin:10px 0;
 }
+
+/* Button */
+.nav {
+  text-align:center;
+  margin:20px 0;
+}
+
+.nav a {
+  color:#00ffcc;
+  text-decoration:none;
+  margin:10px;
+  font-size:18px;
+}
+
+/* Footer */
+.footer {
+  text-align:center;
+  padding:20px;
+  color:#aaa;
+}
 </style>
+
 </head>
 
 <body>
 
-<h1>📖 Moe Dịch Dạo</h1>
+<div class="header">
+📖 Moe Dịch Dạo
+</div>
+
+<div class="container">
+
+<div class="title">
 <h2>Chap 1</h2>
+</div>
 
 <img src="1.png">
 <img src="2.png">
 <img src="3.png">
-  
+
+<div class="nav">
+<a href="#">⬅️ Trang chủ</a>
+<a href="#">➡️ Chap tiếp</a>
+</div>
+
+</div>
+
+<div class="footer">
+Trans by Moe Dịch Dạo
+</div>
+
 </body>
 </html>
